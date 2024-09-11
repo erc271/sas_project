@@ -1,0 +1,17 @@
+@startuml
+left to right direction
+actor "Recruteur" as fc
+rectangle Restaurant {
+  usecase "Creer Poste" as UC1
+  usecase "Modifier Poste" as UC2
+  usecase "Consulter Poste" as UC3
+  usecase "Supprimer Poste" as UC4
+  usecase "Recherch Poste" as UC5
+
+}
+fc -- UC1
+fc -- UC2
+fc -- UC3
+fc -- UC4
+fc -- UC5
+@enduml
